@@ -1,0 +1,154 @@
+  body{
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+  }
+
+  h1, h2, h3, h4, h5, h6  {
+      font-family: 'Montserrat-Bold', sans-serif;
+      line-height: 1.5;
+
+  }
+
+  h3 {
+      color: #000000;
+  }
+
+  .container-fluid {
+    padding: 3% 15% 7%;
+
+  }
+
+  /* headings */
+
+  .title-heading {
+      font-size: 3.5rem;
+      font-weight: 900 !important;
+  }
+
+  #title {
+    background-color: #ff4c68;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  /* Navigation Bar */
+
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+
+  .nav-item {
+    padding: 0 18px;
+  }
+
+  .nav-link {
+    font-family: 'Montserrat-Light', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+  }
+
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+  }
+
+  /* Download Buttons */
+
+  .dl-btn {
+    margin: 5% 3% 5% 0%
+  }
+
+  /* Title Image */
+
+  .title-img {
+    width: 60%;
+    right: 30%;
+    transform: rotate(25deg);
+    position: absolute;
+  }
+
+  @media (max-width: 1020px) {
+
+  .title-img {
+    transform: rotate(0deg);
+    position: static;
+  }
+  .title {
+     text-align: center;
+  }
+  }
+
+  /* Featured Items */
+
+  .featured-card {
+    margin:5% 0 0 0;
+    color: #8f8f8f;
+    padding: 5%;
+  }
+
+  .featured-icon {
+     color: #ef8172;
+     font-size: 2em;
+  }
+
+  .featured-icon:hover {
+     color: #ff4c68;
+  }
+
+  #features {
+    background: #ffffff;
+    position: relative;
+  }
+
+ /* Testimonial */
+
+ #testimonials {
+    background: #ef8172;
+    color: #ffffff;
+ }
+
+ .test-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+ }
+
+ /* Press */
+
+ #press {
+    padding-bottom: 3%;
+    background: #ef8172;
+    color: #ffffff;
+ }
+
+ .carousel-item {
+     padding: 7% 15%;
+ }
+
+ .press-logo {
+    width: 15%;
+    margin: 20px 20px 20px 15pxv
+ }
+
+/* Pricing */
+
+.pricing-card {
+}
+
+/* Call to Action */
+
+#cta  {
+    padding: 2% 15%;
+    background: #ef8172;
+}
+
+.cta-text {
+    color: #ffffff;
+}
+
+/* Footer */
+
+footer {
+    padding: 5% 15% 2%;
+}
